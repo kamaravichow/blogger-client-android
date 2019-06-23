@@ -3,6 +3,7 @@ package com.aravindchowdary.kodewaala;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -43,7 +44,6 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
 
         Document document = Jsoup.parse(item.getContent());
         holder.postDescription.setText(document.text());
-
         Elements elements = document.select("img");
         Glide.with(context).load(elements.get(0).attr("src")).into(holder.postImage);
 

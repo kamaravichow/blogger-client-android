@@ -15,7 +15,8 @@
         android:id="@+id/titlebar"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/colorPrimary">
+        android:background="@color/colorPrimary"
+        android:elevation="4dp">
 
         <ImageView
             android:id="@+id/logoimage"
@@ -49,7 +50,7 @@
         android:orientation="vertical">
 
     </android.support.v7.widget.RecyclerView>
-
+    
 
 
 </RelativeLayout>
