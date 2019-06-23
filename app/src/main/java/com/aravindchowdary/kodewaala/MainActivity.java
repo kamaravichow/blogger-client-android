@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onFailure(Call<PostList> call, Throwable t) {
                 Toast.makeText(MainActivity.this, "Error Occured", Toast.LENGTH_SHORT).show();
-                getData();
             }
         });
     }
