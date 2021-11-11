@@ -2,7 +2,7 @@
 A basic android application that helps you retrive and show data from your blog 
 made using blogger. 
 
-⚠️ This example is outdated. I recommend you to try material client : https://github.com/kamaravichow/material-blogger-client-android
+⚠️ **This example is outdated . I recommend you to try material client : https://github.com/kamaravichow/material-blogger-client-android**
 
 ### Requirements : 
 
